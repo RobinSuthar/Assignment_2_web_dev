@@ -5,9 +5,9 @@ var currentTime = time.getFullYear();
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white p-4 mt-4">
+    <footer className="bg-slate-700 text-white shadow-lg p-4 mt-4">
       <div className="text-center">
-        <p>&copy; {currentTime} French Fries. All rights reserved.</p>
+        <p>&copy; {currentTime} The French Fries School. All rights reserved.</p>
         <div className="flex justify-center space-x-4"></div>
       </div>
     </footer>
