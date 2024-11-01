@@ -2,13 +2,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
-const students = [
-  { firstName: "Mike", lastName: "Smith", dob: "14-Oct-2005", grade: "10" },
-  { firstName: "Jack", lastName: "Johnson", dob: "20-Jul-204", grade: "9" },
-  { firstName: "Kitty", lastName: "Wong", dob: "05-Jun-2004", grade: "9" },
-  { firstName: "John", lastName: "Do", dob: "14-Mar-2005", grade: "10" },
-  { firstName: "Owen", lastName: "Jones", dob: "01-Jan-2005", grade: "11" },
-];
 
 const StudentList = () => {
   const [students, setStudents] = useState([]);
