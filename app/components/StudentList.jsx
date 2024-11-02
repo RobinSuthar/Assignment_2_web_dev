@@ -12,8 +12,12 @@ const StudentList = () => {
   }, []);
 
   if (students.length === 0) {
-    <h2 className="text-xl font-semibold text-center">Student List</h2>;
-    return <p className="text-center">No students found.</p>;
+    return (
+      <div>
+        <h2 className="text-xl font-semibold text-center">Student List</h2>
+        <p className="text-center mt-8">No students found.</p>
+      </div>
+    );
   } else {
     return (
       <div className="p-4">
