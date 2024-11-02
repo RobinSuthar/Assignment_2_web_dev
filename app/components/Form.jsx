@@ -24,7 +24,7 @@ const Form = () => {
   const handleSubmit = async (e) => {
       e.preventDefault();
       try {
-        const response = await fetch('http://localhost:3300/users' , {
+        const response = await fetch('http://localhost:3300/students' , {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

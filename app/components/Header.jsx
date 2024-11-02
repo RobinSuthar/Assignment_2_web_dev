@@ -8,9 +8,9 @@ const Header = () => {
         <div className="text-lg font-bold">The French Fries School</div>
         <ul className="flex space-x-4">
           <li>
-            <a href="#home" className="hover:text-blue-100">
+            <Link href="/" className="hover:text-blue-100">
               Home
-            </a>
+            </Link>
           </li>
           <li>
             <Link href="/studentList">Student List</Link>
